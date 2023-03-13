@@ -1,6 +1,6 @@
 defmodule MemoryGame.Card do
   @enforce_keys [:id, :pair_of]
-  defstruct [:id, :pair_of, :flipped_by, flipped: false, pair_flipped: false]
+  defstruct [:id, :pair_of, :flipped_by, flipped: false]
 
   alias __MODULE__
 
